@@ -5,9 +5,7 @@
   "main": "src/index.js",
   "unpkg": "dist/index.min.js",
   "scripts": {
-    "build": "npm run build:dev && npm run build:prod",
-    "build:dev": "rollup -c rollup.config.dev.js",
-    "build:prod": "rollup -c rollup.config.prod.js"
+    "build": "rollup -c rollup.config.prod.js"
   },
   "repository": {
     "type": "git",
