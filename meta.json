@@ -1,0 +1,19 @@
+{
+  "schema": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "message": "Vue component name"
+    },
+    "description": {
+      "type": "string",
+      "required": false,
+      "message": "Vue component description",
+      "default": "Vue component"
+    },
+    "author": {
+      "type": "String",
+      "label": "Author"
+    }
+  }
+}

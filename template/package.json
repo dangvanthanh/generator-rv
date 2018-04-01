@@ -1,22 +1,22 @@
 {
-  "name": "generator-rv",
+  "name": "{{name}}",
   "version": "0.0.1",
   "description": "Scaffold out a node module for vue component",
-  "main": "src/index.js",
-  "unpkg": "dist/index.min.js",
+  "main": "src/{{name}}.js",
+  "unpkg": "dist/{{name}}.min.js",
   "scripts": {
     "build": "rollup -c rollup.config.prod.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dangvanthanh/generator-rv.git"
+    "url": "git+https://github.com/dangvanthanh/{{name}}.git"
   },
   "author": "Dang Van Thanh <chieuhue@gmail.com> (dangthanh.org)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dangvanthanh/generator-rv/issues"
+    "url": "https://github.com/dangvanthanh/{{name}}/issues"
   },
-  "homepage": "https://github.com/dangvanthanh/generator-rv#readme",
+  "homepage": "https://github.com/dangvanthanh/{{name}}#readme",
   "devDependencies": {
     "rollup": "^0.57.1",
     "rollup-plugin-alias": "^1.4.0",
